@@ -1,9 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @layer base {
   :root {
@@ -99,6 +99,7 @@
 }
 
 @layer components {
+  /* ... keep existing code (component classes) */
   .calculator-key {
     @apply w-full relative overflow-hidden flex items-center justify-center rounded-2xl text-lg sm:text-xl font-medium cursor-pointer select-none transition-all duration-200 active:scale-95;
   }
